@@ -69,4 +69,5 @@ model RouletteCard {
   id  String  @id @default(cuid())
   name  String  @unique
   type  CardType
+  combo Boolean
 }
